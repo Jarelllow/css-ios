@@ -1,0 +1,45 @@
+* {
+   box-sizing: border-box;
+}
+body {
+	background-image:url("Wallpaper/Default.jpg");
+		background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+div{
+	display: inline-block;
+}
+
+img {
+		max-height: 170px;
+		max-width: 170px;
+		border-radius:30%;
+}
+
+div.row {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+p {
+	font-size: 30px;
+	margin-top:0;
+}
+
+.element {
+	margin:20px;
+}
+
+footer {
+	box-sizing: border-box;
+	position:relative;
+	filter: blur(8px);
+
+}
+
+.blur {
+
+}
